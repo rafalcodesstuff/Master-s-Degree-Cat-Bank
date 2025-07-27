@@ -1,0 +1,14 @@
+#about {
+    background-color: #fff0d4;
+    height: 100vh;
+}
+
+#meow-manager-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.meow-manager-img {
+    object-fit: contain;
+}

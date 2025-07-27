@@ -1,0 +1,190 @@
+html, body {
+    font-family: "Patrick Hand SC", cursive;
+    font-style: normal;
+}
+
+a, u {
+    text-decoration: none !important;
+}
+
+#home {
+    background-color: #ffffea;
+    height: 100vh;
+}
+
+#home-header-text {
+    font-size: 4.5em;
+    font-weight: 1000;
+    text-shadow: 3px 3px 1px #e5d4ef;
+}
+
+#home-subheader-text {
+    font-size: 3em;
+    font-weight: 1000;
+    text-shadow: 3px 3px 1px #e5d4ef;
+}
+
+.bank-name {
+    font-weight: 1000;
+    font-size: 3.5em;
+    word-spacing: -5;
+    line-height: 0.95;
+    text-shadow: 3px 3px 1px #e5d4ef;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff0d4;
+    padding: 1.5em 1em 0.25em 3em;
+}
+
+#nav-items-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+    margin-right: 2em;
+}
+
+.nav-item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #e5d4ef;
+}
+
+.nav-item-text {
+    font-size: 3em;
+    margin-left: 0.5em;
+    background-color: #fbe0e0;
+    padding: 0.2em;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.nav-item-text:hover {
+    background-color: #e5d4ef;
+}
+
+#logo-image {
+    height: 8em;
+    width: 8em;
+    margin-bottom: 1em;
+}
+
+.image {
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cat-image {
+    height: 6em;
+    width: 6em;
+}
+
+.section-container {
+    height: 100%;
+}
+
+.image-container {
+    height: 90%;
+}
+
+.patrick-hand {
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.main-text {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.form-text {
+    font-size: 2em;
+}
+
+.text-color-white {
+    color: #ffffea;
+}
+.text-color-blue {
+    color: #d6e6ff;
+}
+
+.text-color-pink {
+    color: #fbe0e0;
+}
+
+.text-color-purple {
+    color: #e5d4ef;
+}
+
+.text-color-green {
+    color: #d7f9f8;
+}
+
+.card {
+    background-color: #e5d4ef;
+    outline: none;
+    border: 0;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-shadow: 7px 7px 7px #d7f9f8;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.btn-primary {
+    background-color: #ffffea;
+    color: #e5d4ef;
+    outline: none;
+    border: 0;
+}
+
+.btn-primary:hover {
+    background-color: #d7f9f8;
+}
+
+.card {
+    height: 95%;
+}
+
+.modal-content {
+    background-color: #ffffea;
+    color: #000;
+}
+
+.modal-header {
+    background-color: #e5d4ef;
+    color: #ffffea;
+}

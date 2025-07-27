@@ -1,0 +1,123 @@
+#chat-questionare {
+    height: 85vh;
+    width: 80%;
+    overflow: auto;
+    margin-left: 4em;
+    padding-bottom: 2em;
+    scrollbar-width: none;
+}
+
+.chat-message-container {
+    width: 100%;
+    margin-top: 16px;
+}
+
+.chat-message-wrapper {
+    width: 80%;
+    border-radius: 12px;
+    background-color: #ffffea;
+    box-shadow: 3px 3px 3px #fff0d4;
+}
+
+.chat-questionare-message {
+    font-family: "Open Sans", sans-serif;
+    color: #e5d4ef;
+    padding: 1em 1em 0.5em 1.5em;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.chat-message-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.chat-message-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.chat-message-border-radius-left {
+    border-bottom-left-radius: 0;
+}
+
+.chat-message-border-radius-right {
+    border-bottom-right-radius: 0;
+}
+
+/* https://css-tricks.com/snippets/css/typewriter-effect/ */
+.line-1 {
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.chat-choice-container {
+    width: 100%;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+/* https://codepen.io/Metty/pen/MWjOavR */
+.chat-choice-wrapper {
+    display: inline-flex;
+    background: #ffffea;
+    height: 5em;
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    padding: 3.5em 0.5em;
+}
+.chat-choice-wrapper .option{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:    "wdth" 100;
+    color: #ffffea;
+    background: #fbe0e0;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 5px 20px;
+    transition: all 0.3s ease;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}e
+.chat-choice-wrapper .option span{
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    font-size: 14px;
+    color: #d7f9f8;
+}
+.chat-choice-wrapper .option:hover {
+    background-color: #d7f9f8;
+}
+input[type="radio"]{
+    display: none;
+}
+input[type="radio"]:checked + .option {
+    border-color: #d6e6ff;
+    background: #d6e6ff;
+    opacity: 1;
+    transform: scale(1);
+}
+input[type="radio"]:checked + .option span{
+    color: #ffffea;
+}

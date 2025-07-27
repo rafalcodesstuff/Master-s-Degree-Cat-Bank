@@ -1,0 +1,38 @@
+#offers {
+    background-color: #d6e6ff;
+    height: 200vh;
+}
+
+#offers-assistant {
+    background-color: #fff0d4;
+    height: 100vh;
+}
+
+#offers-carousel {
+    height: 100vh;
+}
+
+.carousel-inner {
+    background-color: #d6e6ff;
+    width: 100%;
+}
+
+#slider .carousel-item {
+    height: 500px;
+}
+
+.carousel-caption {
+    font-size: 18px;
+    position:static;
+}
+
+.carousel-container {
+    max-height:100vh;
+    display:block;
+}
+
+.cat-card-offers-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
